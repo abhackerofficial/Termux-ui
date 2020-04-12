@@ -3,7 +3,6 @@ echo -e "\033[1;36;40m"[*] Installation Has Started...
 echo -e "\033[1;91m"[*] Please wait...
 apt update -y
 apt upgrade -y
-apt install git -y
 apt install nano -y
 apt install bash -y
 apt install python -y
