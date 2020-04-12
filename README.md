@@ -6,17 +6,12 @@ Termux-ui implements oh-my-zsh and zsh-syntax-highlighting on your Termux app, a
 
 This repo requires Termux official repo. In mainland China, you may need to add Termux app to your proxy list in order to gain access to Termux official repository.
 
+[+] How to Change Fonts Style & Colour Scheme
 
-[+] sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+Change Color Scheme: ~/.termux/colors.sh
 
-Change color scheme: ~/.termux/colors.sh
+Change Font Style: ~/.termux/fonts.sh
 
-Run chcolor to change color scheme, or run:
-
-
-Change font: ~/.termux/fonts.sh
-
-Run chfont to change font, or run:
 
 [*] After That ~
 
