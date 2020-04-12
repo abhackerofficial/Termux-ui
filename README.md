@@ -16,6 +16,7 @@ Change Font Style: ~/.termux/fonts.sh
 
 
 [*] After That ~
+
 [+] Termux-login Installation:
 
 git clone https://github.com/abhackerofficial/termux-login-3.0.1
