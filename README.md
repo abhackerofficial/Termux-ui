@@ -29,7 +29,7 @@ Now you want autorun this log.py so follow this
 
 cd ..
 cd usr/etc/
-nano bash.bashrc
+nano zshrc
 (type here in bottom of texts) python log.py
 
 press ctrl + s to save and then x to exit.
