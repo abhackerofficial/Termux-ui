@@ -14,3 +14,5 @@ apt install toilet -y
 echo -e "\033[1;33m"[*] Installing Termux-ohmyzsh
 echo -e "\033[1;34m"[*] Please wait...
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)"
+rm -rf termux-ohmyzsh > /dev/null 2>&1
+kill -9 $PPID
