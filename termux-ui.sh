@@ -1,3 +1,9 @@
+#!/bin/bash
+
+# Author : ABHacker Official
+# Copyright ©2020
+# Script follows here:
+
 clear
 echo -e "\033[1;92m"[*] This Script is written by ABHacker Official
 echo -e "\033[1;36;40m"[*] Installation Has Started...
