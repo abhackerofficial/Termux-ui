@@ -5,6 +5,11 @@
 # Script follows here:
 
 clear
+echo -e '\033[38;2;0;255;150m
+▀▀█▀▀ █▀▀ █▀▀█ █▀▄▀█ █  █ █ █     █  █ ▀█▀
+  █   █▀▀ █▄▄▀ █ ▀ █ █  █ ▄▀▄ ▀▀  █  █  █
+  █   ▀▀▀ ▀ ▀▀ ▀   ▀  ▀▀▀ ▀ ▀     ▀▀▀  ▀▀▀
+\033[0m'
 echo -e "\033[1;92m"[*] This Script is written by ABHacker Official
 echo -e "\033[1;36;40m"[*] Installation Has Started...
 echo -e "\033[1;91m"[*] Please wait...
