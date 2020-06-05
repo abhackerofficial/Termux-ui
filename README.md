@@ -47,3 +47,4 @@ python log.py
 press ctrl + s to save and then x to exit.
 
 Now exit termux and start again.
+#
