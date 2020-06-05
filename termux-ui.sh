@@ -38,6 +38,7 @@ command -v cowsay > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require cowsay 
 command -v lolcat > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require lolcat but it's not installed, Now Installing.\e[1;92m"; gem install lolcat; echo; }
 command -v toilet > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require toilet but it's not installed, Now Installing.\e[1;92m"; apt install toilet -y; echo; }
 echo
+
 echo -e "\033[1;93m[*] Installing Termux-ohmyzsh"
 sleep 1
 echo
