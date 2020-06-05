@@ -8,9 +8,9 @@ Termux-ui implements oh-my-zsh and zsh-syntax-highlighting on your Termux app, a
 This repo requires Termux official repo. In mainland China, you may need to add Termux app to your proxy list in order to gain access to Termux official repository.
 
 [+] Termux-ui Installation:
-
+```
 git clone git clone https://github.com/abhackerofficial/Termux-ui
-
+```
 Change Color Scheme: ~/.termux/colors.sh
 
 Change Font Style: ~/.termux/fonts.sh
@@ -27,17 +27,17 @@ cd Termux-login
 mv log.py $HOME
 
 Now you want autorun this log.py so follow this
-
+```
 cd ..
 
 cd usr/etc/
 
 nano zshrc
-
+```
 (type here in bottom of texts)
-
+```
 python log.py
-
+```
 press ctrl + s to save and then x to exit.
 
 Now exit termux and start again.
