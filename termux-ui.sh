@@ -17,14 +17,16 @@ sleep 1
 echo -e "\033[1;36;40m"[*] Installation Has Started...
 sleep 1
 echo -e "\033[1;91m"[*] Please wait...
-apt install nano -y
-apt install bash -y
-apt install python -y
-apt install python2 -y
-apt install ruby -y
-gem install lolcat
-apt install cowsay -y
-apt install figlet -y
+
+command -v nano > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require nano but it's not installed, Now Installing.\e[1;92m"; apt install nano -y; echo; }
+command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[1;92m"; apt install python -y; echo; }
+command -v python2 > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python2 but it's not installed, Now Installing.\e[1;92m"; apt install python2 -y; echo; }
+command -v ruby > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require ruby but it's not installed, Now Installing.\e[1;92m"; apt install ruby -y; echo; }
+command -v figlet > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require figlet but it's not installed, Now Installing.\e[1;92m"; apt install figlet -y; echo; }
+command -v cowsay > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require cowsay but it's not installed, Now Installing.\e[1;92m"; apt install cowsay -y; echo; }
+command -v lolcat > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require lolcat but it's not installed, Now Installing.\e[1;92m"; gem install lolcat; echo; }
+command -v toilet > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require toilet but it's not installed, Now Installing.\e[1;92m"; apt install toilet -y; echo; }
+
 apt install toilet -y
 echo -e "\033[1;33m"[*] Installing Termux-ohmyzsh
 echo -e "\033[1;34m"[*] Please wait...
