@@ -10,6 +10,7 @@ echo -e '\033[38;2;0;255;150m
   █   █▀▀ █▄▄▀ █ ▀ █ █  █ ▄▀▄ ▀▀  █  █  █
   █   ▀▀▀ ▀ ▀▀ ▀   ▀  ▀▀▀ ▀ ▀     ▀▀▀  ▀▀▀
 \033[0m'
+printf "     \e[102m\e[1;90m >> youtube.com/\e[104m\e[1;77mabhackerofficial << \e[0m\n"
 sleep 2
 echo -e "\033[1;92m"[*] This Script is written by ABHacker Official
 sleep 1
