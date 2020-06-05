@@ -25,9 +25,9 @@ Change Font Style: ~
 [+] Termux-login Installation:
 ```
 git clone https://github.com/abhackerofficial/termux-login
-
+```
 cd Termux-login
-
+```
 mv log.py $HOME
 ```
 Now you want autorun this log.py so follow this
