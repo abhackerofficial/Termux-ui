@@ -1,6 +1,6 @@
 Termux-ui
 
-A fork from oh-my-termux. It makes the app more colorful.
+A tool from oh-my-termux. It makes the app more colorful.
 
 Termux-ui implements oh-my-zsh and zsh-syntax-highlighting on your Termux app, as well as some color schemes (most are from Gogh), and some Powerline fonts (ported from powerline/fonts). Default set is agnoster for oh-my-zsh, Tango for color scheme, and Ubuntu font.
 
