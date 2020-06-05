@@ -10,8 +10,11 @@ echo -e '\033[38;2;0;255;150m
   █   █▀▀ █▄▄▀ █ ▀ █ █  █ ▄▀▄ ▀▀  █  █  █
   █   ▀▀▀ ▀ ▀▀ ▀   ▀  ▀▀▀ ▀ ▀     ▀▀▀  ▀▀▀
 \033[0m'
+sleep 2
 echo -e "\033[1;92m"[*] This Script is written by ABHacker Official
+sleep 1
 echo -e "\033[1;36;40m"[*] Installation Has Started...
+sleep 1
 echo -e "\033[1;91m"[*] Please wait...
 apt install nano -y
 apt install bash -y
