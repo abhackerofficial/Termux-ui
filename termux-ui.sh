@@ -29,7 +29,6 @@ echo
 echo -e "\033[1;91m[*] Please wait..."
 echo
 echo -e "\033[1;91m[+] Installing Required Packages..."
-echo
 command -v nano > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require nano but it's not installed, Now Installing.\e[1;92m"; apt install nano -y; echo; }
 command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[1;92m"; apt install python -y; echo; }
 command -v python2 > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python2 but it's not installed, Now Installing.\e[1;92m"; apt install python2 -y; echo; }
@@ -38,7 +37,7 @@ command -v figlet > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require figlet 
 command -v cowsay > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require cowsay but it's not installed, Now Installing.\e[1;92m"; apt install cowsay -y; echo; }
 command -v lolcat > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require lolcat but it's not installed, Now Installing.\e[1;92m"; gem install lolcat; echo; }
 command -v toilet > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require toilet but it's not installed, Now Installing.\e[1;92m"; apt install toilet -y; echo; }
-
+echo
 echo -e "\033[1;93m[*] Installing Termux-ohmyzsh"
 sleep 1
 echo
