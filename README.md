@@ -11,21 +11,25 @@ This repo requires Termux official repo. In mainland China, you may need to add 
 ```
 git clone git clone https://github.com/abhackerofficial/Termux-ui
 ```
-Change Color Scheme: ~/.termux/colors.sh
-
-Change Font Style: ~/.termux/fonts.sh
-
+Change Color Scheme: ~
+```
+/.termux/colors.sh
+```
+Change Font Style: ~
+```
+/.termux/fonts.sh
+```
 
 [*] After That ~
 
 [+] Termux-login Installation:
-
+```
 git clone https://github.com/abhackerofficial/termux-login
 
 cd Termux-login
 
 mv log.py $HOME
-
+```
 Now you want autorun this log.py so follow this
 ```
 cd ..
