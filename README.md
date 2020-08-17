@@ -13,6 +13,10 @@ This repo requires Termux official repo, You may need to add Termux app to your 
 ```
 git clone git clone https://github.com/abhackerofficial/Termux-ui
 ```
+cd Termux-ui
+```
+bash termux-ui.sh
+```
 Change Color Scheme: ~
 ```
 /.termux/colors.sh
