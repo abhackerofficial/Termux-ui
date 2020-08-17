@@ -23,7 +23,7 @@ bash termux-ui.sh
 ```
 /.termux/colors.sh
 ```
-Change Font Style: ~
+### Change Font Style: ~
 ```
 /.termux/fonts.sh
 ```
