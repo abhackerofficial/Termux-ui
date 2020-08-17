@@ -16,8 +16,8 @@ git clone git clone https://github.com/abhackerofficial/Termux-ui
 ```
 cd Termux-ui
 ```
-bash termux-ui.sh
 ```
+bash termux-ui.sh
 ```
 Change Color Scheme: ~
 ```
