@@ -49,5 +49,5 @@ echo -e "\033[1;94m[*] Please wait..." | pv -qL 20
 sleep 1
 echo
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)" ; fi
-if [ -d "/data/data/com.termux/files/home/.oh-my-zsh" ];then $HOME ; rm -rf termux-ohmyzsh ; fi
+if [ -d "/data/data/com.termux/files/home/termux-ohmyzsh" ];then $HOME ; rm -rf termux-ohmyzsh ; fi
 kill -9 $PPID
