@@ -43,7 +43,7 @@ echo
 echo -e "\033[1;93m[*] Installing Termux-Ohmyzsh " | pv -qL 20
 sleep 1
 echo
-if [ -d "/data/data/com.termux/files/home/.oh-my-zsh" ];then echo -e "\e[1;38;2;0;255;200m[√] OH-MY-ZSH Already Installed !\n" ; fi
+if [ -d "/data/data/com.termux/files/home/.oh-my-zsh" ];then echo -e "\e[1;38;2;0;255;200m[√] OH-MY-ZSH Already Installed !\n" | pv -qL 20 ; fi
 if [ ! -d "/data/data/com.termux/files/home/.oh-my-zsh" ];then
 echo -e "\033[1;94m[*] Please wait..." | pv -qL 20
 sleep 1
