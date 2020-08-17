@@ -18,6 +18,7 @@ cd Termux-ui
 ```
 bash termux-ui.sh
 ```
+```
 Change Color Scheme: ~
 ```
 /.termux/colors.sh
