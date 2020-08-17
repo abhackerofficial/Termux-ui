@@ -9,7 +9,7 @@ Termux-ui implements oh-my-zsh and zsh-syntax-highlighting on your Termux app, a
 
 This repo requires Termux official repo, You may need to add Termux app to your proxy list in order to gain access to Termux official repository.
 
-### [+] Termux-ui Installation:
+### [ + ] Termux-ui Installation:
 ```
 git clone git clone https://github.com/abhackerofficial/Termux-ui
 ```
