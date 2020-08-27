@@ -11,7 +11,7 @@ HIDCRSR
 ohmyzsh() {
 if [ -d "/data/data/com.termux/files/home/.oh-my-zsh" ];then
 echo -ne "                                          \r"
-echo -ne "\e[1;38;2;0;255;200m[√] OH-MY-ZSH Already Installed !\r" | pv -qL 20 ;echo -e "\n"; exit ; fi ; }
+echo -ne "\e[1;38;2;0;255;200m[√] OH-MY-ZSH Already Installed !\r" | pv -qL 20 ;echo -e "\n"; NORM ;exit ; fi ; }
 
 clear
 echo -e '\033[38;2;0;255;150m
@@ -35,7 +35,8 @@ echo -ne "\e[1;38;2;255;235;55m[!] Checking for update...\r" | pv -qL 20
 sleep 0.6
 echo -ne "                                          \r"
 bash update.ui 
-else HIDCRSR ; echo ; ohmyzsh
+else echo -ne "                                          \r"
+HIDCRSR ; echo ; ohmyzsh
 sleep 1
 echo -ne "\033[1;96m[*] Installation Has Started...\r" | pv -qL 20
 sleep 0.6
