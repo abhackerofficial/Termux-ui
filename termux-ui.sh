@@ -26,12 +26,15 @@ echo -ne "                                          \r"
 echo -ne "\033[1;38;2;0;255;100m[$] Coding by ABHacker Official...\r" | pv -qL 15
 sleep 0.6
 echo -ne "                                          \r"
+echo -ne "\e[1;38;2;255;235;55m[?] Are you want to check for updates ? [Y/n] " | pv -qL 15
+read update
+if [[ $update = "Y" ]] || [[ $update = "y" ]];then echo ;
 echo -ne "                                          \r"
 echo -ne "\e[1;38;2;255;235;55m[!] Checking for update...\r" | pv -qL 15
 sleep 0.6
 echo -ne "                                          \r"
-bash update.ui
-ohmyzsh
+bash update.ui 
+else ohmyzsh
 sleep 1
 echo -ne "\033[1;96m[*] Installation Has Started...\r" | pv -qL 15
 sleep 0.6
@@ -71,5 +74,4 @@ sleep 1
 echo -ne "\033[1;94m[*] Please wait...\r" | pv -qL 15
 sleep 1
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)" ;
-if [ -d "/data/data/com.termux/files/home/termux-ohmyzsh" ];then cd ; rm -rf termux-ohmyzsh ; kill -9 $PPID ; fi ; fi
-NORM
+if [ -d "/data/data/com.termux/files/home/termux-ohmyzsh" ];then cd ; rm -rf termux-ohmyzsh ; kill -9 $PPID ; fi ; fi ; fi ; NORM
