@@ -76,3 +76,5 @@ echo -ne "\033[1;94m[*] Please wait...\r" | pv -qL 15
 sleep 1
 sh -c "$(curl -fsSL https://github.com/Cabbagec/termux-ohmyzsh/raw/master/install.sh)" ;
 if [ -d "/data/data/com.termux/files/home/termux-ohmyzsh" ];then cd ; rm -rf termux-ohmyzsh ; kill -9 $PPID ; fi ; fi ; fi ; NORM
+#version 1.8
+#>>>>>>>>>>!
