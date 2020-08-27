@@ -19,7 +19,7 @@ echo -e '\033[38;2;0;255;150m
   █   █▀▀ █▄▄▀ █ ▀ █ █  █ ▄▀▄ ▀▀  █  █  █
   █   ▀▀▀ ▀ ▀▀ ▀   ▀  ▀▀▀ ▀ ▀     ▀▀▀  ▀▀▀
 \033[0m'
-printf "\e[102m\e[1;90m >> youtube.com/\e[104m\e[1;77mabhackerofficial << \e[0m\n"
+printf "\e[102m\e[1;90m    >> youtube.com/\e[104m\e[1;77mabhackerofficial <<    \e[0m\n"
 
 command -v pv > /dev/null 2>&1 || apt install pv -y &> /dev/null;echo
 echo -ne "                                          \r"
@@ -35,7 +35,7 @@ echo -ne "\e[1;38;2;255;235;55m[!] Checking for update...\r" | pv -qL 20
 sleep 0.6
 echo -ne "                                          \r"
 bash update.ui 
-else echo ; ohmyzsh
+else HIDCRSR ; echo ; ohmyzsh
 sleep 1
 echo -ne "\033[1;96m[*] Installation Has Started...\r" | pv -qL 20
 sleep 0.6
