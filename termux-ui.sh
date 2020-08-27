@@ -26,6 +26,7 @@ echo -ne "                                          \r"
 echo -ne "\033[1;38;2;0;255;100m[$] Coding by ABHacker Official...\r" | pv -qL 15
 sleep 0.6
 echo -ne "                                          \r"
+NORM
 echo -ne "\e[1;38;2;255;235;55m[?] Are you want to check for updates ? [Y/n] " | pv -qL 15
 read update
 if [[ $update = "Y" ]] || [[ $update = "y" ]];then echo ;
@@ -34,7 +35,7 @@ echo -ne "\e[1;38;2;255;235;55m[!] Checking for update...\r" | pv -qL 15
 sleep 0.6
 echo -ne "                                          \r"
 bash update.ui 
-else ohmyzsh
+else echo ; HIDCRSR ; ohmyzsh
 sleep 1
 echo -ne "\033[1;96m[*] Installation Has Started...\r" | pv -qL 15
 sleep 0.6
