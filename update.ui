@@ -71,6 +71,7 @@ echo -ne "${c1}Updaing..  ——————————————————
 sleep 0.1
 echo -ne "${c1}Updaing... ————————————————————${c3} ${c3}(100.0%) \r"
 sleep 0.6
-echo -ne "${C1} [√] Update successful, Re-Launching...\r" | pv -qL 15
+echo -ne "                                                          "  
+echo -ne "${c1} [√] Update successful, Re-Launching...\r" | pv -qL 15
 cd Termux-ui ; bash termux-ui.sh
 NORM
